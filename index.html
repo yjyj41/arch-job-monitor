@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arch Job Monitor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F4F2EC; --card:#FBFAF7; --ink:#16161A; --ink2:#4A4A52; --ink3:#6E6E76;
+  --rule:#D9D5CB; --rule2:#E8E5DD; --accent:#C2410C; --accent-bg:#FBE6D9;
+  --ok:#1F6F43; --ok-bg:#DDF0E4; --closed:#8A8A90;
+  --sans:"Inter Tight",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#121214; --card:#1A1A1D; --ink:#EDEBE6; --ink2:#B9B7B1; --ink3:#8E8C87;
+  --rule:#2E2E33; --rule2:#24242A; --accent:#FB923C; --accent-bg:#3A2417; --ok:#6CCB94; --ok-bg:#16301F; --closed:#6B6B70;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.45 var(--sans);-webkit-font-smoothing:antialiased}
+.wrap{max-width:1400px;margin:0 auto;padding:28px 24px 64px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;border-bottom:2px solid var(--ink);padding-bottom:14px}
+h1{margin:0;font-size:30px;letter-spacing:-.02em;font-weight:700;line-height:1}
+h1 small{display:block;font:500 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-bottom:8px}
+.meta{font:12px/1.6 var(--mono);color:var(--ink2);text-align:right}
+.meta b{color:var(--ink);font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-bottom:1px solid var(--rule)}
+.stat{padding:14px 0 12px;border-right:1px solid var(--rule2);padding-left:14px}
+.stat:first-child{padding-left:0}.stat:last-child{border-right:0}
+.stat .n{font:600 26px/1 var(--sans);letter-spacing:-.02em}
+.stat .l{font:11px/1.3 var(--mono);color:var(--ink3);text-transform:uppercase;letter-spacing:.08em;margin-top:6px}
+.stat.new .n{color:var(--accent)}
+.controls{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;padding:14px 0;border-bottom:1px solid var(--rule)}
+.controls label{font:11px var(--mono);color:var(--ink3);text-transform:uppercase;letter-spacing:.06em;display:flex;align-items:center;gap:6px}
+input[type=search],select,input[type=number]{font:14px var(--sans);color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:8px 10px;min-height:38px}
+input[type=search]{width:260px}
+input[type=number]{width:96px}
+.chk{font:13px var(--sans)!important;text-transform:none!important;letter-spacing:0!important;color:var(--ink2)!important;cursor:pointer}
+.chk input{accent-color:var(--accent);width:16px;height:16px}
+.spacer{flex:1}
+button.ghost{font:13px var(--sans);background:none;border:1px solid var(--rule);color:var(--ink2);padding:8px 12px;border-radius:6px;cursor:pointer;min-height:38px}
+button.ghost:hover{border-color:var(--ink3);color:var(--ink)}
+.tablebox{overflow-x:auto;margin-top:4px}
+table{width:100%;border-collapse:collapse;min-width:980px}
+th{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--ink3);text-align:left;padding:12px 10px;border-bottom:1px solid var(--ink);white-space:nowrap;position:sticky;top:0;background:var(--paper)}
+th button{all:unset;cursor:pointer}
+th button:hover,th button[aria-sort]{color:var(--ink)}
+th button[aria-sort=ascending]::after{content:" ↑"}th button[aria-sort=descending]::after{content:" ↓"}
+td{padding:11px 10px;border-bottom:1px solid var(--rule2);vertical-align:top}
+tr:hover td{background:var(--card)}
+td.co{font-weight:600;max-width:220px}
+td.ti a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule)}
+td.ti a:hover{border-color:var(--ink)}
+td.sal,td.date{font:13px var(--mono);white-space:nowrap}
+td.sal.none{color:var(--ink3)}
+td.loc{color:var(--ink2);max-width:200px}
+.tag{display:inline-block;font:500 10.5px/1 var(--mono);letter-spacing:.04em;padding:4px 6px;border-radius:4px;background:var(--rule2);color:var(--ink2);white-space:nowrap}
+.tag.new{background:var(--accent-bg);color:var(--accent);margin-left:6px}
+.tag.sp{background:var(--ok-bg);color:var(--ok)}
+.tag.rec{background:none;border:1px solid var(--rule);color:var(--ink3)}
+tr.closed td{color:var(--closed)} tr.closed td.ti a{color:var(--closed);text-decoration:line-through}
+.star{all:unset;cursor:pointer;font-size:16px;color:var(--ink3);width:28px;height:28px;display:inline-grid;place-items:center;border-radius:4px}
+.star[aria-pressed=true]{color:var(--accent)}
+.empty{padding:60px 0;text-align:center;color:var(--ink3);font:13px var(--mono)}
+footer{margin-top:28px;font:12px/1.7 var(--mono);color:var(--ink3)}
+footer a{color:var(--ink2)}
+@media (max-width:760px){
+  .wrap{padding:20px 16px 48px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:0}.stat:nth-child(3){padding-left:0}
+  input[type=search]{width:100%}
+  .meta{text-align:left}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1><small>Architecture · UK / London</small>Job Monitor</h1>
+    <div class="meta" id="meta">불러오는 중…</div>
+  </header>
+
+  <section class="stats" aria-label="요약">
+    <div class="stat"><div class="n" id="sActive">–</div><div class="l">현재 공고</div></div>
+    <div class="stat new"><div class="n" id="sNew">–</div><div class="l">지난 방문 이후 신규</div></div>
+    <div class="stat"><div class="n" id="sSal">–</div><div class="l">연봉 공개</div></div>
+    <div class="stat"><div class="n" id="sMed">–</div><div class="l">연봉 중간값 (상한)</div></div>
+  </section>
+
+  <section class="controls" aria-label="필터">
+    <input type="search" id="q" placeholder="회사, 직무, 지역 검색" aria-label="검색">
+    <label>국가 <select id="country"></select></label>
+    <label>출처 <select id="source"></select></label>
+    <label>직급 <select id="role"></select></label>
+    <label>최소연봉 £ <input type="number" id="minSal" step="5000" min="0" placeholder="0"></label>
+    <label class="chk"><input type="checkbox" id="archOnly" checked> 건축만</label>
+    <label class="chk"><input type="checkbox" id="salOnly"> 연봉 공개만</label>
+    <label class="chk"><input type="checkbox" id="newOnly"> 신규만</label>
+    <label class="chk"><input type="checkbox" id="starOnly"> ★만</label>
+    <label class="chk"><input type="checkbox" id="noRec"> 리크루터 제외</label>
+    <label class="chk"><input type="checkbox" id="showClosed"> 마감 포함</label>
+    <span class="spacer"></span>
+    <button class="ghost" id="markSeen" type="button">모두 확인함</button>
+  </section>
+
+  <div class="tablebox">
+    <table>
+      <thead><tr>
+        <th scope="col"><span class="visually-hidden" style="position:absolute;left:-9999px">즐겨찾기</span></th>
+        <th scope="col"><button data-k="company">회사</button></th>
+        <th scope="col"><button data-k="title">직무</button></th>
+        <th scope="col"><button data-k="role">직급</button></th>
+        <th scope="col"><button data-k="location">지역</button></th>
+        <th scope="col"><button data-k="salary_max">연봉</button></th>
+        <th scope="col"><button data-k="posted">게시일</button></th>
+        <th scope="col"><button data-k="source">출처</button></th>
+        <th scope="col"><button data-k="sponsor">비자 스폰서</button></th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="empty" hidden>조건에 맞는 공고가 없습니다.</div>
+  </div>
+
+  <footer>
+    매일 06:17 UTC 자동 수집 · 출처: <a href="https://www.dezeenjobs.com/" rel="noopener">Dezeen Jobs</a>,
+    <a href="https://jobs.architecture.com/" rel="noopener">RIBA Jobs</a>,
+    <a href="https://www.bespokecareers.com/london/jobs/" rel="noopener">Bespoke Careers</a><br>
+    비자 스폰서 = 회사명이 UK Home Office 등록 스폰서 명단(Skilled Worker)과 일치. 이름 매칭이라 오차가 있을 수 있으니 지원 전 확인하세요.
+  </footer>
+</div>
+
+<script>
+const SRC = {dezeen:"Dezeen", riba:"RIBA Jobs", bespoke:"Bespoke"};
+const $ = id => document.getElementById(id);
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch{ return d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch{} }
+};
+let JOBS = [], sort = {k:"first_seen", dir:-1};
+let stars = new Set(store.get("stars", []));
+let seen = new Set(store.get("seen", []));
+const firstVisit = !store.get("visited", false);
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDate = d => d ? new Date(d + "T00:00:00").toLocaleDateString("en-GB", {day:"2-digit", month:"short"}) : "—";
+const isNew = j => j.active && !seen.has(j.id) && !firstVisit;
+
+function fillSelect(el, values, label){
+  el.innerHTML = `<option value="">${label}</option>` + values.map(v => `<option value="${esc(v)}">${esc(SRC[v] || v)}</option>`).join("");
+}
+
+function filtered(){
+  const q = $("q").value.trim().toLowerCase();
+  const min = +$("minSal").value || 0;
+  return JOBS.filter(j =>
+    ($("showClosed").checked || j.active) &&
+    (!$("archOnly").checked || j.architecture) &&
+    (!$("salOnly").checked || j.salary_max) &&
+    (!$("newOnly").checked || isNew(j)) &&
+    (!$("starOnly").checked || stars.has(j.id)) &&
+    (!$("noRec").checked || !j.recruiter) &&
+    (!$("country").value || j.country === $("country").value) &&
+    (!$("source").value || j.source === $("source").value) &&
+    (!$("role").value || j.role === $("role").value) &&
+    (!min || (j.salary_max || 0) >= min) &&
+    (!q || [j.company, j.title, j.location, j.role].join(" ").toLowerCase().includes(q))
+  ).sort((a, b) => {
+    let x = a[sort.k], y = b[sort.k];
+    if (sort.k === "posted" || sort.k === "first_seen"){ x = a.posted || a.first_seen; y = b.posted || b.first_seen; }
+    if (x == null || x === "") return 1; if (y == null || y === "") return -1;
+    return (typeof x === "string" ? x.localeCompare(y) : x - y) * sort.dir;
+  });
+}
+
+function render(){
+  const list = filtered();
+  $("rows").innerHTML = list.map(j => `
+    <tr class="${j.active ? "" : "closed"}">
+      <td><button class="star" data-id="${esc(j.id)}" aria-pressed="${stars.has(j.id)}" aria-label="즐겨찾기">${stars.has(j.id) ? "★" : "☆"}</button></td>
+      <td class="co">${esc(j.company)}${j.recruiter ? ' <span class="tag rec">리크루터</span>' : ""}</td>
+      <td class="ti"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>${isNew(j) ? '<span class="tag new">NEW</span>' : ""}${j.active ? "" : ' <span class="tag">마감</span>'}</td>
+      <td><span class="tag">${esc(j.role)}</span></td>
+      <td class="loc">${esc(j.location)}</td>
+      <td class="sal ${j.salary_max ? "" : "none"}">${j.salary_max ? (j.salary_min === j.salary_max ? "£" + (j.salary_max/1000) + "k" : "£" + (j.salary_min/1000) + "–" + (j.salary_max/1000) + "k") : esc(j.salary_text === "Undisclosed" ? "비공개" : j.salary_text)}</td>
+      <td class="date">${fmtDate(j.posted || j.first_seen)}</td>
+      <td>${esc(SRC[j.source] || j.source)}</td>
+      <td>${j.sponsor === true ? '<span class="tag sp">등록</span>' : j.sponsor === false ? '<span style="color:var(--ink3)">–</span>' : '<span style="color:var(--ink3)">?</span>'}</td>
+    </tr>`).join("");
+  $("empty").hidden = list.length > 0;
+
+  const act = JOBS.filter(j => j.active && (!$("archOnly").checked || j.architecture));
+  const sal = act.filter(j => j.salary_max).map(j => j.salary_max).sort((a,b) => a-b);
+  $("sActive").textContent = act.length;
+  $("sNew").textContent = firstVisit ? "–" : act.filter(isNew).length;
+  $("sSal").textContent = act.length ? Math.round(sal.length / act.length * 100) + "%" : "–";
+  $("sMed").textContent = sal.length ? "£" + Math.round(sal[Math.floor(sal.length/2)]/1000) + "k" : "–";
+  document.querySelectorAll("th button").forEach(b => b.dataset.k === sort.k ? b.setAttribute("aria-sort", sort.dir > 0 ? "ascending" : "descending") : b.removeAttribute("aria-sort"));
+}
+
+function markAllSeen(){
+  JOBS.forEach(j => seen.add(j.id));
+  store.set("seen", [...seen]); store.set("visited", true);
+}
+
+document.addEventListener("input", e => { if (e.target.closest(".controls")) render(); });
+document.querySelectorAll("th button").forEach(b => b.addEventListener("click", () => {
+  sort = {k: b.dataset.k, dir: sort.k === b.dataset.k ? -sort.dir : (["salary_max","posted"].includes(b.dataset.k) ? -1 : 1)};
+  render();
+}));
+$("rows").addEventListener("click", e => {
+  const s = e.target.closest(".star"); if (!s) return;
+  stars.has(s.dataset.id) ? stars.delete(s.dataset.id) : stars.add(s.dataset.id);
+  store.set("stars", [...stars]); render();
+});
+$("markSeen").addEventListener("click", () => { markAllSeen(); location.reload(); });
+
+fetch("data/jobs.json?" + Date.now()).then(r => r.json()).then(d => {
+  JOBS = d.jobs || [];
+  const up = d.updated ? new Date(d.updated).toLocaleString("ko-KR", {dateStyle:"medium", timeStyle:"short"}) : "아직 수집 전";
+  $("meta").innerHTML = `업데이트 <b>${esc(up)}</b><br>` + Object.entries(d.sources || {}).map(([k,v]) => `${esc(SRC[k]||k)} ${v}`).join(" · ");
+  fillSelect($("country"), [...new Set(JOBS.map(j => j.country))].sort(), "전체");
+  fillSelect($("source"), [...new Set(JOBS.map(j => j.source))].sort(), "전체");
+  fillSelect($("role"), [...new Set(JOBS.map(j => j.role))].sort(), "전체");
+  render();
+  if (firstVisit) markAllSeen(); // first visit: everything counts as seen from next time
+  else { // record what's been seen this visit; NEW badges stay until next visit
+    window.addEventListener("pagehide", () => { JOBS.forEach(j => seen.add(j.id)); store.set("seen", [...seen]); });
+  }
+}).catch(() => { $("meta").textContent = "data/jobs.json 을 불러오지 못했습니다"; });
+</script>
+</body>
+</html>
