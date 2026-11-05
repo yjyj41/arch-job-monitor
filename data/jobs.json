@@ -1,11 +1,34 @@
 {
- "updated": "2026-11-04T18:01+00:00",
+ "updated": "2026-11-05T14:45+00:00",
  "sources": {
   "dezeen": 0,
   "riba": 0,
   "bespoke": 25
  },
  "jobs": [
+  {
+   "id": "bespoke:552edf3c-62ca-438a-8ef0-cefae121365e",
+   "source": "bespoke",
+   "title": "Architectural Technician or Technologist",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-11-04",
+   "url": "https://www.bespokecareers.com/jobview/architectural-technician-or-technologist/552edf3c-62ca-438a-8ef0-cefae121365e/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Technologist",
+   "architecture": true,
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "active": true,
+   "sponsor": null
+  },
   {
    "id": "bespoke:0d2c71d5-dff6-4bb4-b4a9-7c70e463d57b",
    "source": "bespoke",
@@ -25,7 +48,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -48,7 +71,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -71,7 +94,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -94,7 +117,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -117,7 +140,7 @@
    "role": "Computational",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -140,7 +163,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -163,7 +186,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -186,7 +209,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -209,7 +232,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -232,7 +255,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -255,7 +278,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -278,7 +301,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -301,7 +324,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -324,7 +347,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -347,7 +370,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -370,7 +393,7 @@
    "role": "Project Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -393,7 +416,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -416,7 +439,7 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -439,7 +462,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -462,7 +485,7 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -485,7 +508,7 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -508,7 +531,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -531,7 +554,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -554,7 +577,7 @@
    "role": "Technologist",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "active": true,
    "sponsor": null
   },
@@ -578,7 +601,7 @@
    "architecture": true,
    "first_seen": "2026-11-04",
    "last_seen": "2026-11-04",
-   "active": true,
+   "active": false,
    "sponsor": null
   }
  ]
