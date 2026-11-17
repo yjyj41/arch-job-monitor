@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T15:58+00:00",
+ "updated": "2026-11-17T16:10+00:00",
  "sources": {
   "dezeen": 0,
   "riba": 0,
-  "bespoke": 22
+  "bespoke": 24
  },
  "jobs": [
   {
@@ -67,7 +67,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -111,7 +111,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -302,7 +302,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -493,7 +493,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -516,7 +516,7 @@
    "role": "Associate",
    "architecture": false,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -539,7 +539,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -562,7 +562,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -585,7 +585,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -608,7 +608,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -631,8 +631,8 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-15",
-   "active": false,
+   "last_seen": "2026-11-17",
+   "active": true,
    "sponsor": null
   },
   {
@@ -654,7 +654,30 @@
    "role": "Computational",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
+   "active": true,
+   "sponsor": null
+  },
+  {
+   "id": "bespoke:860c55e7-1603-4f56-bb91-23ce040b6a20",
+   "source": "bespoke",
+   "title": "Business Development Manager",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-10-21",
+   "url": "https://www.bespokecareers.com/jobview/business-development-manager/860c55e7-1603-4f56-bb91-23ce040b6a20/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Other",
+   "architecture": false,
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -678,30 +701,7 @@
    "architecture": true,
    "first_seen": "2026-11-04",
    "last_seen": "2026-11-16",
-   "active": true,
-   "sponsor": null
-  },
-  {
-   "id": "bespoke:860c55e7-1603-4f56-bb91-23ce040b6a20",
-   "source": "bespoke",
-   "title": "Business Development Manager",
-   "company": "(via Bespoke Careers)",
-   "location": "London",
-   "country": "UK",
-   "salary_text": "Undisclosed",
-   "categories": [
-    ""
-   ],
-   "posted": "2026-10-21",
-   "url": "https://www.bespokecareers.com/jobview/business-development-manager/860c55e7-1603-4f56-bb91-23ce040b6a20/",
-   "recruiter": true,
-   "salary_min": null,
-   "salary_max": null,
-   "role": "Other",
-   "architecture": false,
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -723,7 +723,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -746,7 +746,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -769,30 +769,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-15",
-   "active": false,
-   "sponsor": null
-  },
-  {
-   "id": "bespoke:b8a98457-1bf5-4fca-8f3d-975382efa206",
-   "source": "bespoke",
-   "title": "Midweight Workplace Designer - CONTRACT",
-   "company": "(via Bespoke Careers)",
-   "location": "London",
-   "country": "UK",
-   "salary_text": "Undisclosed",
-   "categories": [
-    ""
-   ],
-   "posted": "2026-10-19",
-   "url": "https://www.bespokecareers.com/jobview/midweight-workplace-designer-contract/b8a98457-1bf5-4fca-8f3d-975382efa206/",
-   "recruiter": true,
-   "salary_min": null,
-   "salary_max": null,
-   "role": "Other",
-   "architecture": false,
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -815,8 +792,31 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
+   "sponsor": null
+  },
+  {
+   "id": "bespoke:b8a98457-1bf5-4fca-8f3d-975382efa206",
+   "source": "bespoke",
+   "title": "Midweight Workplace Designer - CONTRACT",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-10-19",
+   "url": "https://www.bespokecareers.com/jobview/midweight-workplace-designer-contract/b8a98457-1bf5-4fca-8f3d-975382efa206/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Other",
+   "architecture": false,
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-16",
+   "active": false,
    "sponsor": null
   },
   {
@@ -839,7 +839,7 @@
    "architecture": false,
    "first_seen": "2026-11-04",
    "last_seen": "2026-11-16",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -861,7 +861,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -884,7 +884,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -907,7 +907,7 @@
    "role": "Project Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -930,8 +930,8 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-15",
-   "active": false,
+   "last_seen": "2026-11-17",
+   "active": true,
    "sponsor": null
   },
   {
@@ -953,7 +953,7 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -976,7 +976,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "active": true,
    "sponsor": null
   },
@@ -999,8 +999,8 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
-   "active": false,
+   "last_seen": "2026-11-17",
+   "active": true,
    "sponsor": null
   },
   {
@@ -1091,8 +1091,8 @@
    "role": "Technologist",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-08",
-   "active": false,
+   "last_seen": "2026-11-17",
+   "active": true,
    "sponsor": null
   },
   {
