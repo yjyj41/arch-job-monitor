@@ -1,11 +1,34 @@
 {
- "updated": "2026-11-17T16:10+00:00",
+ "updated": "2026-11-18T15:47+00:00",
  "sources": {
   "dezeen": 0,
   "riba": 0,
   "bespoke": 24
  },
  "jobs": [
+  {
+   "id": "bespoke:ea34cee0-37bc-4656-a16c-a35b8faf3a3d",
+   "source": "bespoke",
+   "title": "Strong Mid or Senior Interior Architect / Designer",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-11-17",
+   "url": "https://www.bespokecareers.com/jobview/strong-mid-or-senior-interior-architect-designer/ea34cee0-37bc-4656-a16c-a35b8faf3a3d/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Senior",
+   "architecture": true,
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "active": true,
+   "sponsor": null
+  },
   {
    "id": "dezeen:1132732",
    "source": "dezeen",
@@ -67,7 +90,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -111,7 +134,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -302,7 +325,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -493,7 +516,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -516,7 +539,7 @@
    "role": "Associate",
    "architecture": false,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -539,7 +562,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -563,7 +586,7 @@
    "architecture": false,
    "first_seen": "2026-11-04",
    "last_seen": "2026-11-17",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -585,7 +608,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -608,7 +631,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -631,7 +654,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -654,30 +677,7 @@
    "role": "Computational",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
-   "active": true,
-   "sponsor": null
-  },
-  {
-   "id": "bespoke:860c55e7-1603-4f56-bb91-23ce040b6a20",
-   "source": "bespoke",
-   "title": "Business Development Manager",
-   "company": "(via Bespoke Careers)",
-   "location": "London",
-   "country": "UK",
-   "salary_text": "Undisclosed",
-   "categories": [
-    ""
-   ],
-   "posted": "2026-10-21",
-   "url": "https://www.bespokecareers.com/jobview/business-development-manager/860c55e7-1603-4f56-bb91-23ce040b6a20/",
-   "recruiter": true,
-   "salary_min": null,
-   "salary_max": null,
-   "role": "Other",
-   "architecture": false,
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -700,8 +700,31 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-16",
-   "active": false,
+   "last_seen": "2026-11-18",
+   "active": true,
+   "sponsor": null
+  },
+  {
+   "id": "bespoke:860c55e7-1603-4f56-bb91-23ce040b6a20",
+   "source": "bespoke",
+   "title": "Business Development Manager",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-10-21",
+   "url": "https://www.bespokecareers.com/jobview/business-development-manager/860c55e7-1603-4f56-bb91-23ce040b6a20/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Other",
+   "architecture": false,
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-18",
+   "active": true,
    "sponsor": null
   },
   {
@@ -723,7 +746,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -746,7 +769,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -769,7 +792,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -792,7 +815,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -861,7 +884,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -884,7 +907,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -907,7 +930,7 @@
    "role": "Project Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -930,7 +953,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -953,7 +976,7 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -976,7 +999,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -999,7 +1022,7 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "active": true,
    "sponsor": null
   },
@@ -1092,7 +1115,7 @@
    "architecture": false,
    "first_seen": "2026-11-04",
    "last_seen": "2026-11-17",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
