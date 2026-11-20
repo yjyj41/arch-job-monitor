@@ -1,11 +1,80 @@
 {
- "updated": "2026-11-19T15:52+00:00",
+ "updated": "2026-11-20T15:34+00:00",
  "sources": {
-  "dezeen": 10,
+  "dezeen": 0,
   "riba": 0,
-  "bespoke": 22
+  "bespoke": 23
  },
  "jobs": [
+  {
+   "id": "bespoke:798ae365-e768-4d7c-a58d-2f584af23419",
+   "source": "bespoke",
+   "title": "Midweight Interior Designer",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-11-19",
+   "url": "https://www.bespokecareers.com/jobview/midweight-interior-designer/798ae365-e768-4d7c-a58d-2f584af23419/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Interior",
+   "architecture": false,
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "active": true,
+   "sponsor": null
+  },
+  {
+   "id": "bespoke:fcce4ab8-f87b-43d0-9a2d-8b8f3a163178",
+   "source": "bespoke",
+   "title": "Senior Project Architect",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-11-19",
+   "url": "https://www.bespokecareers.com/jobview/senior-project-architect/fcce4ab8-f87b-43d0-9a2d-8b8f3a163178/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Senior",
+   "architecture": true,
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "active": true,
+   "sponsor": null
+  },
+  {
+   "id": "bespoke:4264d54a-335a-43e6-8736-6bcd69286333",
+   "source": "bespoke",
+   "title": "Senior Architect",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-11-19",
+   "url": "https://www.bespokecareers.com/jobview/senior-architect/4264d54a-335a-43e6-8736-6bcd69286333/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Senior",
+   "architecture": true,
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "active": true,
+   "sponsor": null
+  },
   {
    "id": "dezeen:771942",
    "source": "dezeen",
@@ -49,6 +118,29 @@
    "sponsor": true
   },
   {
+   "id": "bespoke:17a6d926-840f-4a7f-84a6-974517a0054e",
+   "source": "bespoke",
+   "title": "Italian Speaking Senior Interior Architect / Interior Designer- Luxury Resi/Hospitality Projects",
+   "company": "(via Bespoke Careers)",
+   "location": "London",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [
+    ""
+   ],
+   "posted": "2026-11-18",
+   "url": "https://www.bespokecareers.com/jobview/italian-speaking-senior-interior-architect-interior-designer-luxury-resihospitality-projects/17a6d926-840f-4a7f-84a6-974517a0054e/",
+   "recruiter": true,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Senior",
+   "architecture": true,
+   "first_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
+   "active": true,
+   "sponsor": null
+  },
+  {
    "id": "dezeen:1133444",
    "source": "dezeen",
    "title": "Mid-weight interior designer",
@@ -89,29 +181,6 @@
    "last_seen": "2026-11-19",
    "active": true,
    "sponsor": true
-  },
-  {
-   "id": "bespoke:17a6d926-840f-4a7f-84a6-974517a0054e",
-   "source": "bespoke",
-   "title": "Italian Speaking Senior Interior Architect / Interior Designer- Luxury Resi/Hospitality Projects",
-   "company": "(via Bespoke Careers)",
-   "location": "London",
-   "country": "UK",
-   "salary_text": "Undisclosed",
-   "categories": [
-    ""
-   ],
-   "posted": "2026-11-18",
-   "url": "https://www.bespokecareers.com/jobview/italian-speaking-senior-interior-architect-interior-designer-luxury-resihospitality-projects/17a6d926-840f-4a7f-84a6-974517a0054e/",
-   "recruiter": true,
-   "salary_min": null,
-   "salary_max": null,
-   "role": "Senior",
-   "architecture": true,
-   "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
-   "active": true,
-   "sponsor": null
   },
   {
    "id": "dezeen:1133113",
@@ -216,7 +285,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -302,7 +371,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -326,7 +395,7 @@
    "architecture": true,
    "first_seen": "2026-11-13",
    "last_seen": "2026-11-19",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -516,7 +585,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -707,7 +776,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -730,7 +799,7 @@
    "role": "Associate",
    "architecture": false,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -753,7 +822,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -776,7 +845,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -799,7 +868,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -822,7 +891,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -845,7 +914,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -868,7 +937,7 @@
    "role": "Computational",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -891,7 +960,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -914,7 +983,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -937,7 +1006,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -960,7 +1029,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -983,7 +1052,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -1006,7 +1075,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -1075,7 +1144,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -1098,7 +1167,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "active": true,
    "sponsor": null
   },
@@ -1168,7 +1237,7 @@
    "architecture": false,
    "first_seen": "2026-11-04",
    "last_seen": "2026-11-19",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
