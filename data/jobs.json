@@ -1,11 +1,32 @@
 {
- "updated": "2026-11-23T18:22+00:00",
+ "updated": "2026-11-24T17:54+00:00",
  "sources": {
   "dezeen": 0,
-  "riba": 0,
-  "bespoke": 23
+  "riba": 21,
+  "bespoke": 24
  },
  "jobs": [
+  {
+   "id": "riba:32735",
+   "source": "riba",
+   "title": "Part II Architectural Assistant",
+   "company": "Michael Jones Architects ltd",
+   "location": "Richmond upon Thames, London (Greater)",
+   "country": "UK",
+   "salary_text": "Undisclosed",
+   "categories": [],
+   "posted": null,
+   "url": "https://jobs.architecture.com/job/32735/part-ii-architectural-assistant/",
+   "recruiter": false,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Part 1/2",
+   "architecture": true,
+   "first_seen": "2026-11-24",
+   "last_seen": "2026-11-24",
+   "active": true,
+   "sponsor": false
+  },
   {
    "id": "riba:32651",
    "source": "riba",
@@ -24,7 +45,7 @@
    "architecture": false,
    "first_seen": "2026-11-21",
    "last_seen": "2026-11-21",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -45,7 +66,7 @@
    "architecture": true,
    "first_seen": "2026-11-21",
    "last_seen": "2026-11-21",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -66,7 +87,7 @@
    "architecture": true,
    "first_seen": "2026-11-21",
    "last_seen": "2026-11-21",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -87,7 +108,7 @@
    "architecture": false,
    "first_seen": "2026-11-21",
    "last_seen": "2026-11-21",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -107,7 +128,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -128,7 +149,49 @@
    "role": "Director",
    "architecture": false,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
+   "active": true,
+   "sponsor": null
+  },
+  {
+   "id": "riba:32672",
+   "source": "riba",
+   "title": "Post Part II and recently qualified architects",
+   "company": "Nicholas Hare Architects",
+   "location": "London (Central), London (Greater)",
+   "country": "UK",
+   "salary_text": "Dependent on experience",
+   "categories": [],
+   "posted": "2026-11-20",
+   "url": "https://jobs.architecture.com/job/32672/post-part-ii-and-recently-qualified-architects/",
+   "recruiter": false,
+   "salary_min": null,
+   "salary_max": null,
+   "role": "Part 1/2",
+   "architecture": true,
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
+   "active": true,
+   "sponsor": false
+  },
+  {
+   "id": "riba:32669",
+   "source": "riba",
+   "title": "Principal Design Lead",
+   "company": "Planning Recruitment",
+   "location": "London (Central), London (Greater)",
+   "country": "UK",
+   "salary_text": "Up to £78k DOE",
+   "categories": [],
+   "posted": "2026-11-20",
+   "url": "https://jobs.architecture.com/job/32669/principal-design-lead/",
+   "recruiter": true,
+   "salary_min": 78000,
+   "salary_max": 78000,
+   "role": "Director",
+   "architecture": false,
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -149,7 +212,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -170,7 +233,7 @@
    "role": "Project Architect",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -191,7 +254,28 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
+   "active": true,
+   "sponsor": null
+  },
+  {
+   "id": "riba:32681",
+   "source": "riba",
+   "title": "Architect",
+   "company": "Penguin Recruitment",
+   "location": "London, City of London",
+   "country": "UK",
+   "salary_text": "£35000 - £45000 per annum + plus benefits",
+   "categories": [],
+   "posted": "2026-11-17",
+   "url": "https://jobs.architecture.com/job/32681/architect/",
+   "recruiter": true,
+   "salary_min": 35000,
+   "salary_max": 45000,
+   "role": "Architect",
+   "architecture": true,
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -212,7 +296,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
   },
@@ -233,51 +317,9 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
-  },
-  {
-   "id": "riba:32672",
-   "source": "riba",
-   "title": "Post Part II and recently qualified architects",
-   "company": "Nicholas Hare Architects",
-   "location": "London (Central), London (Greater)",
-   "country": "UK",
-   "salary_text": "Dependent on experience",
-   "categories": [],
-   "posted": "2026-11-14",
-   "url": "https://jobs.architecture.com/job/32672/post-part-ii-and-recently-qualified-architects/",
-   "recruiter": false,
-   "salary_min": null,
-   "salary_max": null,
-   "role": "Part 1/2",
-   "architecture": true,
-   "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
-   "active": true,
-   "sponsor": false
-  },
-  {
-   "id": "riba:32669",
-   "source": "riba",
-   "title": "Principal Design Lead",
-   "company": "Planning Recruitment",
-   "location": "London (Central), London (Greater)",
-   "country": "UK",
-   "salary_text": "Up to £78k DOE",
-   "categories": [],
-   "posted": "2026-11-14",
-   "url": "https://jobs.architecture.com/job/32669/principal-design-lead/",
-   "recruiter": true,
-   "salary_min": 78000,
-   "salary_max": 78000,
-   "role": "Director",
-   "architecture": false,
-   "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
-   "active": true,
-   "sponsor": null
   },
   {
    "id": "riba:32712",
@@ -296,7 +338,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
   },
@@ -317,7 +359,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
   },
@@ -338,7 +380,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
   },
@@ -359,7 +401,7 @@
    "role": "Project Architect",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
   },
@@ -380,7 +422,7 @@
    "role": "Associate",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
   },
@@ -401,7 +443,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
   },
@@ -422,7 +464,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": false
   },
@@ -443,7 +485,7 @@
    "role": "Part 1/2",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": true
   },
@@ -464,28 +506,7 @@
    "role": "Project Architect",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
-   "active": true,
-   "sponsor": null
-  },
-  {
-   "id": "riba:32681",
-   "source": "riba",
-   "title": "Architect",
-   "company": "Penguin Recruitment",
-   "location": "London, City of London",
-   "country": "UK",
-   "salary_text": "£35000 - £45000 per annum + plus benefits",
-   "categories": [],
-   "posted": "2026-11-03",
-   "url": "https://jobs.architecture.com/job/32681/architect/",
-   "recruiter": true,
-   "salary_min": 35000,
-   "salary_max": 45000,
-   "role": "Architect",
-   "architecture": true,
-   "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -506,7 +527,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -529,7 +550,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -552,7 +573,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -575,7 +596,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -640,7 +661,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -789,7 +810,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -875,7 +896,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -898,7 +919,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1089,8 +1110,8 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-22",
-   "active": false,
+   "last_seen": "2026-11-24",
+   "active": true,
    "sponsor": null
   },
   {
@@ -1280,7 +1301,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1303,7 +1324,7 @@
    "role": "Associate",
    "architecture": false,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1326,7 +1347,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1349,7 +1370,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1372,7 +1393,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1395,7 +1416,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1418,7 +1439,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1441,7 +1462,7 @@
    "role": "Computational",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1464,7 +1485,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1487,7 +1508,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1510,7 +1531,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1533,7 +1554,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1579,7 +1600,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1648,7 +1669,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1671,7 +1692,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
@@ -1694,7 +1715,7 @@
    "role": "Project Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "active": true,
    "sponsor": null
   },
