@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-26T17:01+00:00",
+ "updated": "2026-11-27T16:47+00:00",
  "sources": {
   "dezeen": 0,
   "riba": 0,
-  "bespoke": 21
+  "bespoke": 24
  },
  "jobs": [
   {
@@ -25,7 +25,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -48,7 +48,7 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -71,7 +71,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -94,7 +94,7 @@
    "role": "Project Architect",
    "architecture": true,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -117,8 +117,8 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "active": false,
+   "last_seen": "2026-11-27",
+   "active": true,
    "sponsor": null
   },
   {
@@ -140,7 +140,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -163,7 +163,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -186,8 +186,8 @@
    "role": "Senior",
    "architecture": false,
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "active": false,
+   "last_seen": "2026-11-27",
+   "active": true,
    "sponsor": null
   },
   {
@@ -755,7 +755,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -778,8 +778,8 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-25",
-   "active": false,
+   "last_seen": "2026-11-27",
+   "active": true,
    "sponsor": null
   },
   {
@@ -801,8 +801,8 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-25",
-   "active": false,
+   "last_seen": "2026-11-27",
+   "active": true,
    "sponsor": null
   },
   {
@@ -866,7 +866,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1015,7 +1015,7 @@
    "role": "Senior",
    "architecture": true,
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1101,7 +1101,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1124,7 +1124,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1315,7 +1315,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1529,7 +1529,7 @@
    "role": "Associate",
    "architecture": false,
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1553,7 +1553,7 @@
    "architecture": true,
    "first_seen": "2026-11-05",
    "last_seen": "2026-11-26",
-   "active": true,
+   "active": false,
    "sponsor": null
   },
   {
@@ -1575,7 +1575,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1598,7 +1598,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1621,7 +1621,7 @@
    "role": "Technologist",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1644,7 +1644,7 @@
    "role": "Other",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1667,7 +1667,7 @@
    "role": "Computational",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1736,7 +1736,7 @@
    "role": "Architect",
    "architecture": true,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
@@ -1759,7 +1759,7 @@
    "role": "Interior",
    "architecture": false,
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "active": true,
    "sponsor": null
   },
